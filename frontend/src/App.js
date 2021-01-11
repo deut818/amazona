@@ -62,7 +62,7 @@ function App() {
               <i className="fa fa-bars"></i>
             </button>
             <Link className="brand" to="/">
-              amazona
+              Dfair
             </Link>
           </div>
           <div>
@@ -241,7 +241,7 @@ function App() {
 
           <Route path="/" component={HomeScreen} exact></Route>
         </main>
-        <footer className="row center">All right reserved</footer>
+        <footer className="row center">&copy;Dfair 2020-2029. All rights reserved</footer>
       </div>
     </BrowserRouter>
   );
